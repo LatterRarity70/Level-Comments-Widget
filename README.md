@@ -1,0 +1,1 @@
+Adds a level comments widget where you play.
