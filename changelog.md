@@ -1,3 +1,6 @@
+# 1.1.1
+fix chat button in pause doesn't work
+
 # 1.1.0
 by [Erymanthus](https://geode-sdk.org/developers/94), [#1](https://github.com/LatterRarity70/Level-Comments-Widget/pull/1)
 
