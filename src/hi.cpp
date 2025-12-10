@@ -10,7 +10,7 @@ class $modify(PauseLayerExt, PauseLayer) {
         if (auto menu = querySelector("left-button-menu")) {
             if (auto item = CCMenuItemExt::createSpriteExtraWithFrameName(
                 "GJ_chatBtn_001.png", 0.6f, [](void*) {
-                    if (auto a = CCScene::get()->getChildByType<InfoLayer>(0))
+                    if (auto a = Playlayer::get()->m_uiLayer->getChildByType<InfoLayer>(0))
                         a->onComment(a);
                 }
             )) {
